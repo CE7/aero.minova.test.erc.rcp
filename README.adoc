@@ -1,6 +1,6 @@
-# aero.minova.test.saw.rcp
+# aero.minova.test.erc.rcp
 RCP E4 Testanwendung 
 
 In diesem Projekt teste ich verschiedene Dinge aus.
 
-xref:./src/aero/minova/test/saw/rcp/parts/BrowserPart.adoc#[SVG Browser]
+xref:./src/aero/minova/test/erc/rcp/parts/BrowserPart.adoc#[SVG Browser]

@@ -3,14 +3,14 @@
   <children xsi:type="basic:TrimmedWindow" xmi:id="_6wlLccgZEeSyMNYR5xypkQ" elementId="test.ui.window.main" label="Eclipse 4 RCP Application" width="800" height="800">
     <children xsi:type="basic:PartSashContainer" xmi:id="_6wlLksgZEeSyMNYR5xypkQ" elementId="test.ui.partsashcontainer.sample">
       <children xsi:type="basic:PartStack" xmi:id="_6wlLk8gZEeSyMNYR5xypkQ" elementId="test.ui.partstack.sample">
-        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="test.ui.part.sample" contributionURI="bundleclass://aero.minova.test.saw.rcp/aero.minova.test.saw.rcp.parts.SamplePart" label="Sample Part" iconURI="platform:/plugin/aero.minova.test.saw.rcp/icons/home.png"/>
-        <children xsi:type="basic:Part" xmi:id="_md6qwDmREeuJypk-9NJIRQ" elementId="test.ui.part.browsertest" contributionURI="bundleclass://aero.minova.test.saw.rcp/aero.minova.test.saw.rcp.parts.BrowserPart" label="BrowserTest"/>
-        <children xsi:type="basic:Part" xmi:id="_T-yqYECfEeuRleIaugyDgg" elementId="test.ui.part.nattable" contributionURI="bundleclass://aero.minova.test.saw.rcp/aero.minova.test.saw.rcp.parts.NatTablePart" label="NatTable"/>
+        <children xsi:type="basic:Part" xmi:id="_6wlLlMgZEeSyMNYR5xypkQ" elementId="test.ui.part.sample" contributionURI="bundleclass://aero.minova.test.erc.rcp/aero.minova.test.erc.rcp.parts.SamplePart" label="Sample Part" iconURI="platform:/plugin/aero.minova.test.saw.rcp/icons/home.png"/>
+        <children xsi:type="basic:Part" xmi:id="_md6qwDmREeuJypk-9NJIRQ" elementId="test.ui.part.browsertest" contributionURI="bundleclass://aero.minova.test.erc.rcp/aero.minova.test.erc.rcp.parts.BrowserPart" label="BrowserTest"/>
+        <children xsi:type="basic:Part" xmi:id="_T-yqYECfEeuRleIaugyDgg" elementId="test.ui.part.nattable" contributionURI="bundleclass://aero.minova.test.erc.rcp/aero.minova.test.erc.rcp.parts.NatTablePart" label="NatTable"/>
         <children xsi:type="basic:CompositePart" xmi:id="_CyZo8ELmEeufotnszDn1QQ" elementId="test.ui.compositepart.0" contributionURI="bundleclass://test.ui/aero.minova.rcp.rcp.parts.TestCompositePart" label="Kontakte">
           <children xsi:type="basic:PartSashContainer" xmi:id="_D08rEELmEeufotnszDn1QQ" elementId="test.ui.partsashcontainer.0" horizontal="true">
-            <children xsi:type="basic:Part" xmi:id="_I0iKgELmEeufotnszDn1QQ" elementId="test.ui.part.gruppen" contributionURI="bundleclass://aero.minova.test.saw.rcp/aero.minova.test.saw.rcp.parts.ContactGroupsPart" label="Gruppen"/>
-            <children xsi:type="basic:Part" xmi:id="_bfktUELmEeujptxGZwwK5g" elementId="test.ui.part.liste" contributionURI="bundleclass://aero.minova.test.saw.rcp/aero.minova.test.saw.rcp.parts.ContactListPart" label="Liste"/>
-            <children xsi:type="basic:Part" xmi:id="_e-YL8ELlEeufotnszDn1QQ" elementId="test.ui.part.kontakt" contributionURI="bundleclass://aero.minova.test.saw.rcp/aero.minova.test.saw.rcp.parts.ContactPart" label="Kontakt"/>
+            <children xsi:type="basic:Part" xmi:id="_I0iKgELmEeufotnszDn1QQ" elementId="test.ui.part.gruppen" contributionURI="bundleclass://aero.minova.test.erc.rcp/aero.minova.test.erc.rcp.parts.ContactGroupsPart" label="Gruppen"/>
+            <children xsi:type="basic:Part" xmi:id="_bfktUELmEeujptxGZwwK5g" elementId="test.ui.part.liste" contributionURI="bundleclass://aero.minova.test.erc.rcp/aero.minova.test.erc.rcp.parts.ContactListPart" label="Liste"/>
+            <children xsi:type="basic:Part" xmi:id="_e-YL8ELlEeufotnszDn1QQ" elementId="test.ui.part.kontakt" contributionURI="bundleclass://aero.minova.test.erc.rcp/aero.minova.test.erc.rcp.parts.ContactPart" label="Kontakt"/>
           </children>
         </children>
       </children>
@@ -37,7 +37,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_zxxHMFUAEeuGC7ONQbMbFA" elementId="test.ui.toolbar.2">
         <tags>stretch</tags>
-        <children xsi:type="menu:ToolControl" xmi:id="_1qI-EFUAEeuGC7ONQbMbFA" elementId="test.ui.toolcontrol.0" contributionURI="bundleclass://aero.minova.test.saw.rcp/aero.minova.test.saw.rcp.parts.StatusBar"/>
+        <children xsi:type="menu:ToolControl" xmi:id="_1qI-EFUAEeuGC7ONQbMbFA" elementId="test.ui.toolcontrol.0" contributionURI="bundleclass://aero.minova.test.erc.rcp/aero.minova.test.erc.rcp.parts.StatusBar"/>
       </children>
     </trimBars>
   </children>
